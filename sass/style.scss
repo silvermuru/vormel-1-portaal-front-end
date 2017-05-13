@@ -28,7 +28,16 @@ $navbar-default-border: #6C6C6C;
 
 $nav-link-padding: 5px 10px;
 
+$color-border-light: #EEE;
+
+$color-border-dark: $navbar-default-bg;
+
 @import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap";
+
+.well-sm {
+    padding-left: 14px;
+    padding-right: 14px;
+}
 
 body {margin: 0; padding: 0}
 
@@ -46,8 +55,7 @@ body {margin: 0; padding: 0}
 .network {
     margin: 0 0 10px; 
     padding: 5px; 
-    border-bottom: #DDD 3px solid; 
-    border-right: #DDD 3px solid; 
+    border-bottom: 1px solid $color-border-light;
     font-size: 12px; 
     color: #AAA;
 
@@ -98,13 +106,17 @@ body {margin: 0; padding: 0}
 
 #menu a {font-size: 17px; color: #FFF}
 
-.block, .block-inline, .block-title {margin: 0 0 20px; padding: 15px 15px 20px; border-bottom: 1px solid #EEE}
+.block, .block-inline, .block-title {margin: 0 0 20px; padding: 15px 15px 20px; border-bottom: 1px solid $color-border-dark}
 
 .block-inline, .block-title {border: 0}
 
 .block-title {margin: 0; padding-bottom: 0}
 
 .page_title {
+    padding: 0 15px
+}
+
+.inline_title {
     padding: 0 15px
 }
 
@@ -144,7 +156,9 @@ h1 {font-size: 24px}
 
 .section_box img {border: 1px solid #000}
 
-.section_box_wide, .section_box {padding: 0 0 10px}
+.section_box_wide {padding: 0 0 10px}
+
+.section_box {padding: 0 15px 10px}
 
 /* follow */
 
@@ -155,6 +169,12 @@ h1 {font-size: 24px}
 .following-block .flag {}
 
 .following-block .info {float: left; width: 160px}
+
+.following-block {
+    .inline_title {
+        padding: 0
+    }
+}
 
 .following-box {width: 100%; overflow: hidden}
 
@@ -169,6 +189,17 @@ h1 {font-size: 24px}
 .countdown strong {display: block}
 
 .lead {font-size: 16px}
+
+.table {
+    tr {
+        td {
+            &:first-child {
+                padding-left: 15px
+            }
+
+        }
+    }
+}
 
 /* network sites */
 
