@@ -1,7 +1,7 @@
 {
-  "name": "IIMS",
+  "name": "Vormel-1 portaal front-end",
   "version": "1.0.0",
-  "description": "Teine Maailmasõda web",
+  "description": "Vormel-1 portaal front-end projekt",
   "main": "/avaleht",
   "scripts": {
     "test": "-"
