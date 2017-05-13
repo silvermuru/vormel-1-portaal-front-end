@@ -1,0 +1,26 @@
+{
+  "name": "Vormel-1 portaal front-end",
+  "version": "1.0.0",
+  "description": "Vormel-1 portaal front-end projekt",
+  "main": "/avaleht",
+  "scripts": {
+    "test": "-"
+  },
+  "repository": {
+    "type": "git",
+    "url": "-"
+  },
+  "keywords": [
+    "ww2"
+  ],
+  "author": "WebShark.ee",
+  "license": "-",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-ftp-deploy": "^0.1.10"
+  }
+}

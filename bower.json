@@ -1,0 +1,27 @@
+{
+  "name": "IIMS",
+  "description": "Teine Maailmasõda web",
+  "main": "/avaleht",
+  "authors": [
+    "WebShark.ee"
+  ],
+  "license": "-",
+  "keywords": [
+    "ww2"
+  ],
+  "moduleType": [],
+  "homepage": "http://www.iims.ee",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-scss": "~3.0.3",
+    "jquery": "~2.1.4",
+    "bootstrap-sass": "^3.3.6"
+  }
+}
