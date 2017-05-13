@@ -33,70 +33,70 @@ $nav-link-padding: 5px 10px;
 body {margin: 0; padding: 0}
 
 #main {
-	margin: 0 auto; 
-	padding: 10px;
-	padding-top: 5px;
-	background-color: #FFF; 
-	border-top: 0; 
-	border-bottom: #6C6C6C 3px solid; 
-	border-left: #6C6C6C 1px solid; 
-	border-right: #6C6C6C 3px solid
+    margin: 0 auto; 
+    padding: 10px;
+    padding-top: 5px;
+    background-color: #FFF; 
+    border-top: 0; 
+    border-bottom: #6C6C6C 3px solid; 
+    border-left: #6C6C6C 1px solid; 
+    border-right: #6C6C6C 3px solid
 }
 
-	.network {
-        margin: 0 0 10px; 
-        padding: 5px; 
-        border-bottom: #DDD 3px solid; 
-        border-right: #DDD 3px solid; 
-        font-size: 12px; 
+.network {
+    margin: 0 0 10px; 
+    padding: 5px; 
+    border-bottom: #DDD 3px solid; 
+    border-right: #DDD 3px solid; 
+    font-size: 12px; 
+    color: #AAA;
+
+    a {
         color: #AAA;
-        
-		a {
-            color: #AAA;
-            &.fb {
-                margin-top: -10px;
-                margin-left: 5px;
-                font-size: 22px; 
-                color: #4862A3
-            }
-            
-            &.tw {
-                margin-top: -10px; 
-                font-size: 22px; 
-                color: #55ACEE
-            }
+        &.fb {
+            margin-top: -10px;
+            margin-left: 5px;
+            font-size: 22px; 
+            color: #4862A3
+        }
+
+        &.tw {
+            margin-top: -10px; 
+            font-size: 22px; 
+            color: #55ACEE
         }
     }
+}
 
-	#header {}
+#header {}
 
-		#logo {}
+#logo {}
 
-		.announcement {padding: 5px; border-bottom: #DDD 3px solid; border-right: #DDD 3px solid}
+.announcement {padding: 5px; border-bottom: #DDD 3px solid; border-right: #DDD 3px solid}
 
-		#banner {padding: 0 0 5px}
+#banner {padding: 0 0 5px}
 
-			#banner .banner-img {display: block; margin: 15px 0 0 0}
+#banner .banner-img {display: block; margin: 15px 0 0 0}
 
-			#banner .banner-element {height: 82px; margin: 5px 0 0}
+#banner .banner-element {height: 82px; margin: 5px 0 0}
 
-				#banner .banner-element .text {float: left; width: 300px; text-align: right}
+#banner .banner-element .text {float: left; width: 300px; text-align: right}
 
-				#banner .banner-element .text a {display: block; padding: 5px; text-align: right; text-decoration: none; font-size: 12px; color: #666}
+#banner .banner-element .text a {display: block; padding: 5px; text-align: right; text-decoration: none; font-size: 12px; color: #666}
 
-					#banner .banner-element .text .title {display: block; padding: 0 0 5px; font-weight: bold}
+#banner .banner-element .text .title {display: block; padding: 0 0 5px; font-weight: bold}
 
-				#banner .banner-element .banner-element-img {display: block; float: right; width: 160px; height: 80px}
+#banner .banner-element .banner-element-img {display: block; float: right; width: 160px; height: 80px}
 
-					#banner .banner-element .banner-element-img img {border: 1px solid #000}
+#banner .banner-element .banner-element-img img {border: 1px solid #000}
 
-			#banner #pais_banner_vaike, #fb_mini_like {display: none}
+#banner #pais_banner_vaike, #fb_mini_like {display: none}
 
-	#content {overflow: hidden}
+#content {overflow: hidden}
 
-		#menu {margin: 0 0 15px; padding: 10px 5px; background: #6C6C6C; font-size: 17px}
+#menu {margin: 0 0 15px; padding: 10px 5px; background: #6C6C6C; font-size: 17px}
 
-			#menu a {font-size: 17px; color: #FFF}
+#menu a {font-size: 17px; color: #FFF}
 
 .block, .block-inline, .block-title {margin: 0 0 20px; padding: 15px 15px 20px; border-bottom: 1px solid #EEE}
 
@@ -105,58 +105,58 @@ body {margin: 0; padding: 0}
 .block-title {margin: 0; padding-bottom: 0}
 
 .page_title {
-	padding: 0 15px
+    padding: 0 15px
 }
 
-	h1, h2, h3 {font-size: 14px; font-weight: bold; margin: 0 0 10px}
-    
-    h1 {font-size: 24px}
+h1, h2, h3 {font-size: 14px; font-weight: bold; margin: 0 0 10px}
 
-	#news .block ul {padding: 0 0 0 15px}
+h1 {font-size: 24px}
 
-		#news .block ul li {padding: 0 0 5px}
+#news .block ul {padding: 0 0 0 15px}
 
-	#twitter-widget-0 {width: 100% !important}
+#news .block ul li {padding: 0 0 5px}
 
-	.more {padding: 10px 0 0 0; text-indent: 10px}
+#twitter-widget-0 {width: 100% !important}
 
-	#videos {
-        
-        .item {
-            padding: 0 0 15px;
-            
-            img {
-                margin: 4px 0 0 0;
-            }
+.more {padding: 10px 0 0 0; text-indent: 10px}
+
+#videos {
+
+    .item {
+        padding: 0 0 15px;
+
+        img {
+            margin: 4px 0 0 0;
         }
-        
-        .block {
-            margin: 0;
-            border-bottom: 1px solid #FFF;
-            background: #EEE;
-                
-            &:nth-child(2){
-                padding-top: 35px
-            }
-        }
-        
     }
 
-	.section_box img {border: 1px solid #000}
+    .block {
+        margin: 0;
+        border-bottom: 1px solid #FFF;
+        background: #EEE;
 
-	.section_box_wide, .section_box {padding: 0 0 10px}
+        &:nth-child(2){
+            padding-top: 35px
+        }
+    }
+
+}
+
+.section_box img {border: 1px solid #000}
+
+.section_box_wide, .section_box {padding: 0 0 10px}
 
 /* follow */
 
 .following-block {width: 50%; font-size: 12px}
 
-	.following-block img {border: 1px solid #000}
+.following-block img {border: 1px solid #000}
 
-	.following-block .flag {}
+.following-block .flag {}
 
-	.following-block .info {float: left; width: 160px}
+.following-block .info {float: left; width: 160px}
 
-	.following-box {width: 100%; overflow: hidden}
+.following-box {width: 100%; overflow: hidden}
 
 .light_italic {font-style: italic; color: #999}
 
@@ -177,11 +177,11 @@ body {margin: 0; padding: 0}
     padding: 10px 0; 
     text-align: center; 
     color: #DDD;
-    
+
     a {
         color: #AAA
     }
-    
+
     #eXTReMe {
         margin-left: 10px
     }
