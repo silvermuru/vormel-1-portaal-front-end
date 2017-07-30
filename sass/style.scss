@@ -32,6 +32,12 @@ $color-border-light: #EEE;
 
 $color-border-dark: $navbar-default-bg;
 
+$border-radius-base: 0 !default;
+
+$border-radius-large: 0 !default;
+
+$border-radius-small: 0 !default;
+
 @import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap";
 
 .well-sm {
