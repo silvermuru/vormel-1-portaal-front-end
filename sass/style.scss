@@ -179,7 +179,20 @@ h1 {font-size: 24px}
 
 .section_box_wide {padding: 0 0 10px}
 
-.section_box {padding: 0 15px 10px}
+.section_box {
+    padding: 0 15px 10px;
+    
+    .block & {
+        padding: 15px 0 20px;
+    }
+}
+
+.section-box {
+    .block & {
+        padding: 15px 0 20px;
+    }
+}
+
 
 /* follow */
 
